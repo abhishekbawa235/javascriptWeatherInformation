@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.input{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.input input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+.input button{
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.weather-icon{
+    margin-top: 50px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.weather{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.temperature{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 16px;
+    
+}
